@@ -85,18 +85,18 @@ const Navbar = () => {
         </Link>
       </div>
       {/* SOCIAL */}
-      <div className="hidden md:flex gap-4 w-1/3 justify-center">
+      <div className="hidden md:flex gap-5 w-1/3 justify-center">
         <Link href="https://github.com/Lanceiz">
-          <Image src="/github.png" alt="" width={34} height={34} />
+          <Image src="/github.png" alt="" width={34} height={34} className="hover:scale-125 transform duration-300 ease-in-out" />
         </Link>
         <Link href="https://www.instagram.com/singh9atul/">
-          <Image src="/instagram.png" alt="" width={34} height={34} />
+          <Image src="/instagram.png" alt="" width={34} height={34} className="hover:scale-125 transform duration-300 ease-in-out" />
         </Link>
         <Link href="/">
-          <Image src="/email.png" alt="" width={34} height={34} />
+          <Image src="/email.png" alt="" width={34} height={34} className="hover:scale-125 transform duration-300 ease-in-out" />
         </Link>
         <Link href="https://www.linkedin.com/in/atul-singh-8907b7183/">
-          <Image src="/linkedin.png" alt="" width={34} height={34} />
+          <Image src="/linkedin.png" alt="" width={34} height={34} className="hover:scale-125 transform duration-300 ease-in-out" />
         </Link>
       </div>
       {/* RESPONSIVE MENU */}
