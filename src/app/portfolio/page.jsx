@@ -38,8 +38,8 @@ const items = [
     title: "Lance-Codes",
     desc: "Lance-codes is built with latest Next.js 14 version and is my portfolio. It shows my web journey as well as demonstrates my skills as an impactful web developer.",
     img: "/lance-codes1.png",
-    link: "https://lama.dev",
-    github: "/",
+    link: "https://lance-codes.vercel.app/",
+    github: "https://github.com/Lanceiz/lance-codes",
   },
 ];
 
